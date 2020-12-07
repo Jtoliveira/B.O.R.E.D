@@ -9,7 +9,7 @@ login = Login("users.txt")
 root = Tk()
 
 root.geometry("400x400")
-root.title("B.O.R.E.D - Born Of Random Enterntainment Deficits")
+root.title("B.O.R.E.D - Born Of Random Entertainment Deficits")
 
 #creating/opening the database and creating the USERS table
 login.databaseSetup()
