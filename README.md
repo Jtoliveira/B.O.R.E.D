@@ -1,5 +1,5 @@
 # B.O.R.E.D
-This is the repository for the B.O.R.E.D - Born Of Random Enterntainment Deficits application
+This is the repository for the B.O.R.E.D - Born Of Random Entertainment Deficits application
 
 It was made using Python (with Tkinter and sqlite3) and the BoredAPI, which consists of an API that returns activities to do when you're bored. I was bored, so i made an application that runs on Windows and fetches data from it. This is probably some of the ugliest code i've ever written.
 
