@@ -29,11 +29,11 @@ def addParameter(newParam):
     global minAcc
     global maxAcc
 
+    parameters = "minprice=" + minPrice.get() + "&maxprice=" + maxPrice.get() + "&minaccessibility=" + minAcc.get() + "&maxaccessibility=" + maxAcc.get()
+
     if newParam != "":
         parameters = "type=" + newParam + "&" + parameters
-    else:
-        parameters = "minprice=" + minPrice.get() + "&maxprice=" + maxPrice.get() + "&minaccessibility=" + minAcc.get() + "&maxaccessibility=" + maxAcc.get()
-
+    
 def setupButtons():
     education = Button(randomActPage, text="Education", command = lambda: addParameter("education"))
     education.place(x = 0, y = 120, width = 100)
