@@ -13,3 +13,5 @@ The app stores user data in a database and might also eventually hold a user's l
 4. Select the categories on the left and set the interval of price and accessibility you want (remember to re-choose the category if you change the intervals in between requests)
 5. If the button "New Activity" is clicked without a change in the parameters, it will fetch an activity with the same options as the previous request
 6. Be sure to click "Logout" when you're done using the application
+
+[This dude](https://github.com/RafaelCS-Aula) chose the name
